@@ -15,7 +15,15 @@ html {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #4D608A;
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: #C66F0B;
+  border-radius: 2px;
+}
 
 nav {
     position: absolute;

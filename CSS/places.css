@@ -16,6 +16,15 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #4D608A;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C66F0B;
+  border-radius: 2px;
+}
 
 nav {
     position: absolute;
@@ -187,6 +196,9 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
     font-size: 1.5rem;
     border-radius: 10px;
     border: none;
+}
+
+.scrollContainer {
     position: absolute;
     justify-self: center;
     bottom: 100px;
