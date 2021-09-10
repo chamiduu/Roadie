@@ -627,7 +627,7 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.507);
  
 
   .funFact {
-    margin-top: 350px;
+    margin-top: 250px;
   }
 
   .headerWrapper {
@@ -692,7 +692,7 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.507);
 
 
   .blogsContent {
-    margin: 50px 100px 150px 100px;
+    margin: 50px 100px 50px 100px;
     grid-template-columns: repeat(2, minmax(360px, 1fr));
   }
 
