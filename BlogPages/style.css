@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  /* overflow-x: hidden; */
 }
 
 html {
@@ -39,6 +40,29 @@ nav {
     color: #142361;
     border-bottom: 2px solid #4D608A;
     transition: 0.5s all ease-in-out;
+}
+
+nav.active {
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    z-index: 99;
+    top: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #142361;
+    border-bottom: 2px solid #4D608A;
+    transition: 0.5s all ease-in-out;
+    background-color: #ffffff5b;
+    backdrop-filter: blur(20px);
+    padding: 0 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.603); 
+box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.479);
 }
 
 .brand-logo {
@@ -370,4 +394,85 @@ hr {
    transition: all 0.3s ease-in-out;
    -webkit-box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.562);
    box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
+}
+
+@media screen and (max-width: 1600px) {
+  .imageContainer img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .imageContainer img {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .imageContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .contentContainer {
+    display: none;
+  }
+
+  .blogWrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .imageContainer img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .blog {
+    flex-direction: column;
+  }
+
+  .contentContainer {
+    display: none;
+  }
+
+  .blogWrapper {
+    width: 100%;
+  }
+
+  .imageContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .imageContainer img {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .imageTitle{
+    font-size: 1.3rem;
+  }
+
+  .imgDescription {
+    width: 100%;
+    margin: 0;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .otherDetails {
+    flex-direction: column;
+    margin-top: 30px;
+    width: 70%;
+    align-items: flex-start;
+  }
+
 }
