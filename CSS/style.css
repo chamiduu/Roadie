@@ -247,6 +247,7 @@ background: linear-gradient(90deg, rgba(27,51,111,1) 0%, rgba(15,29,87,1) 100%);
     font-weight: 600;
     margin-top: 80px;
     margin-bottom: 60px;
+    cursor: pointer;
 }
 
 .buttonHighlight {
@@ -457,6 +458,7 @@ background: linear-gradient(90deg, rgba(27,51,111,1) 0%, rgba(15,29,87,1) 100%);
     margin: 20px 20px;
     font-size: 1.3rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .visitButtonHighlight {
@@ -635,6 +637,8 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.507);
   position: absolute;
   left: 45%;
   bottom: 0;
+    cursor: pointer;
+
 }
 
 

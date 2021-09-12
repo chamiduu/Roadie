@@ -220,27 +220,32 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
     font-size: 1.5rem;
     border-radius: 10px;
     border: none;
+    display: flex;
+    cursor: pointer;
 }
 
 .scrollContainer {
     position: absolute;
     justify-self: center;
     bottom: 100px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-.scrollButton i {
+.scrollButton img {
   color: #e48111;
   margin-right: 10px;
-  transform: rotate(-90deg);
+  width: 25px;
 }
 
 .blogsContainer {
     margin-top: 100px;
+    height: min-content;
 }
 
 .blog {
     width: 70%;
-    height: 300px;
     margin: 100px 100px;
     background-color: #f9fcff;
     -webkit-box-shadow: 5px 5px 19px 1px rgba(20,35,97,0.28); 
@@ -252,7 +257,6 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
 
 .image {
     width: 25%;
-    height: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -269,28 +273,35 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .viewButton {
     background: linear-gradient(90deg, rgba(27,51,111,1) 0%, rgba(15,29,87,1)100%);
     padding: 0.5rem 1rem;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+    transition: 0.2s ease  all;
+}
+
+.viewButton:hover {
+  color: #e0861e;
 }
 
 .date {
-    font-size: 1.2rem ;
+    font-size: 0.9rem ;
 }
 
 .details h2 {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #142361;
 }
 
 .details p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 20px;
     color: #4D608A;
 }
