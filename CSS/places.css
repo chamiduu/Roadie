@@ -42,6 +42,29 @@ nav {
     transition: 0.5s all ease-in-out;
 }
 
+nav.active {
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    z-index: 99;
+    top: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #142361;
+    border-bottom: 2px solid #4D608A;
+    transition: 0.5s all ease-in-out;
+    background-color: #ffffff5b;
+    backdrop-filter: blur(20px);
+    padding: 0 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.603); 
+box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.479);
+}
+
 .brand-logo {
     font-size: 2.5rem; 
     width: 150px;
@@ -167,6 +190,27 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1631284277 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1631284277 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-bottom-1631284277 .shape-fill {
+    fill: #FFFFFF;
 }
 
 .header-content {
@@ -467,8 +511,34 @@ box-shadow: 5px 5px 24px 1px rgba(20,35,97,0.8);
   }
 
   .header {
-    margin-top: 10vh;
+    padding: 22vh 0;
+    height: min-content;
   }
+
+  .destinations {
+    grid-template-columns: repeat(auto-fit, 355px);
+    margin-bottom: 100px;
+  }
+
+  .places-content {
+    margin: auto;
+    width: 95%;
+  }
+
+  .header-content h1 {
+    font-size: 2rem;
+  }
+
+  .header-content {
+    width: 90%;
+  }
+
+  .header-content p { 
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+
 }
 
 

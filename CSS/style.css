@@ -41,6 +41,29 @@ nav {
     transition: 0.5s all ease-in-out;
 }
 
+nav.active {
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    z-index: 99;
+    top: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #142361;
+    border-bottom: 2px solid #4D608A;
+    transition: 0.5s all ease-in-out;
+    background-color: #ffffff5b;
+    backdrop-filter: blur(20px);
+    padding: 0 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.603); 
+box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.479);
+}
+
 .brand-logo {
     font-size: 2.5rem; 
     width: 150px;
@@ -155,7 +178,7 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
 }
 
 .headerContainer {
-    background-image: url("../images/header.png");
+    background-image: url("../images/header2.png");
     height: 100vh;
     background-size: minmax(cover, 250%);
     background-attachment: fixed;
@@ -197,7 +220,7 @@ background: linear-gradient(to right, #1B336F 0%, #0f1d57 100%);
 .cocoIcon {
   position: absolute;
   height: 100px;
-  z-index: -1;
+  z-index: 1;
   transform: rotate(60deg);
   right: -130px;
   top: -80px;
@@ -627,7 +650,7 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.507);
  
 
   .funFact {
-    margin-top: 250px;
+    margin-top: 150px;
   }
 
   .headerWrapper {

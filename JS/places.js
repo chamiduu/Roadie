@@ -250,6 +250,7 @@ const closeModel = document.querySelector(".closeButton");
 const title = document.querySelector(".modelContent h1");
 const imageContainer = document.querySelector(".images");
 const factTitle = document.querySelector(".factTitle");
+const navbar = document.querySelector("nav");
 
 const details = document.querySelector(".details");
 
@@ -356,6 +357,14 @@ closeModel.addEventListener("click", function () {
   factTitle.innerHTML = 'Here are some <span class="factHighlight">fun facts</span> about';
 });
 
+window.onscroll = function () {
+  if (scrollY > 50) {
+    navbar.classList.add("active");
+  }
+  else {
+    navbar.classList.remove("active");
+  }
+};
 
 
 

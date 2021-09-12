@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
 }
 
 html {
@@ -325,10 +324,10 @@ hr {
 }
 
 .contentContainer {  
-  width: 20%;
-  position: sticky;
-  top: 1000px;
-  right: 0;
+    width: 20%;
+    position: sticky;
+    top: 10%;
+    height: min-content;
 }
 
 .contentHeader {
@@ -347,3 +346,28 @@ hr {
   margin-bottom: 5px;
 }
 
+.progress {
+  height: 10px;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  z-index: 99;
+  position: sticky;
+  top: 0;
+}
+
+.toTop {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background: #142361;
+   position: fixed;
+   bottom: 50px;
+   right: 50px;
+   z-index: 99;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+   -webkit-box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.562);
+   box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
+}

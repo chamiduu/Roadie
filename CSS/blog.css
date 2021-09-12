@@ -167,6 +167,29 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1631284471 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1631284471 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1631284471 .shape-fill {
+    fill: #FFFFFF;
 }
 
 .header-content {
@@ -188,6 +211,7 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
   color: #3355a0;
   margin: 0 auto;
 }
+
 
 .scrollButton {
   background: linear-gradient(90deg, rgba(27,51,111,1) 0%, rgba(15,29,87,1)100%);
@@ -303,6 +327,75 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
   z-index: 9999;
   overflow: scroll;
   overflow-x: hidden;
+}
+
+@media screen and (max-width: 550px) {
+  .images {
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 150px 150px;
+  }
+
+  .header {
+    padding: 22vh 0;
+    height: min-content;
+  }
+
+  .destinations {
+    grid-template-columns: repeat(auto-fit, 355px);
+    margin-bottom: 100px;
+  }
+
+  .places-content {
+    margin: auto;
+    width: 95%;
+  }
+
+  .header-content h1 {
+    font-size: 2rem;
+  }
+
+  .header-content {
+    width: 90%;
+  }
+
+  .header-content p { 
+    width: 80%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .blogsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    grid-gap: 50px;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .blog {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+
+  .details h2 {
+    font-size: 1.5rem;
+  }
+
+  .details p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .image {
+     width: 350px;
+     height: auto;
+     border-radius: 10px;
+  }
 }
 
 
