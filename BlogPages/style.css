@@ -181,7 +181,6 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
 
 .headerContainer {
   height: 100vh;
-background: url("../Images/pexels-mali-maeder-1483024.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -274,6 +273,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(255,255,255,1) 1
 .para {
   margin-bottom: 50px;
   color: #142361;
+  font-size: 1.2rem;
 }
 
 .para.one {
@@ -298,6 +298,7 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
 .imageContainer img {
   width: 400px;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .imgDescription {
