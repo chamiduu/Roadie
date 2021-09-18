@@ -340,8 +340,10 @@ background: linear-gradient(to right, #1B336F 0%, #0f1d57 100%);
 }
 
 .headerButton {
-    background: rgb(27,51,111);
-background: linear-gradient(90deg, rgba(27,51,111,1) 0%, rgba(15,29,87,1) 100%);
+    background: rgb(20,36,94);
+background: linear-gradient(90deg, rgba(20,36,94,1) 0%, rgba(5,14,47,1) 50%, rgba(24,60,125,1) 50%, rgba(9,23,50,1) 100%);
+    background-size: 200%;
+    background-position: left;
     color: white;
     padding: 1rem 2rem;
     border-radius: 10px;
@@ -351,6 +353,12 @@ background: linear-gradient(90deg, rgba(27,51,111,1) 0%, rgba(15,29,87,1) 100%);
     margin-top: 80px;
     margin-bottom: 60px;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.headerButton:hover {
+  background-position: right;
+  transform: scale(1.05);
 }
 
 .buttonHighlight {
@@ -655,7 +663,10 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.507);
 
 .readBlog {
   display: none;
-  background: linear-gradient(90deg, #1b336f 0%, #0f1d57  100%);
+  background: rgb(20,36,94);
+background: linear-gradient(90deg, rgba(20,36,94,1) 0%, rgba(5,14,47,1) 50%, rgba(24,60,125,1) 50%, rgba(9,23,50,1) 100%);
+background-size: 200%;
+background-position: left;
   width: 100%;
   margin: auto;
   color: white;
@@ -664,12 +675,13 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.507);
   border: none;
   margin-top: 10px;
   font-size: 1.2rem;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   cursor: pointer;
 }
 
 .readBlog:hover {
   color: #ff9900;
+  background-position: right;
 }
 
 .blog:hover .readBlog {
@@ -732,13 +744,21 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.507);
   color: white;
   border: 0;
   border-radius: 5px;
-    background: linear-gradient(90deg, #1b336f 0%, #0f1d57  100%);
+    background: rgb(20,36,94);
+background: linear-gradient(90deg, rgba(20,36,94,1) 0%, rgba(5,14,47,1) 50%, rgba(24,60,125,1) 50%, rgba(9,23,50,1) 100%);
+transition: 0.5s ease-in-out;
+background-size: 200%;
+background-position: left;
   margin: auto;
   position: absolute;
   left: 45%;
   bottom: 0;
     cursor: pointer;
+    
+}
 
+.allBlogs:hover {
+  background-position: right;
 }
 
 

@@ -333,7 +333,11 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
 
 
 .scrollButton {
-  background: linear-gradient(90deg, rgba(27,51,111,1) 0%, rgba(15,29,87,1)100%);
+  background: rgb(20,36,94);
+background: linear-gradient(90deg, rgba(20,36,94,1) 0%, rgba(5,14,47,1) 50%, rgba(24,60,125,1) 50%, rgba(9,23,50,1) 100%);
+transition: 0.5s ease-in-out;
+background-size: 200%;
+background-position: left;
     padding: 0.5rem 1rem;
     color: white;
     font-size: 1.5rem;
@@ -341,6 +345,11 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
     border: none;
     display: flex;
     cursor: pointer;
+}
+
+.scrollButton:hover {
+  background-position: right;
+  transform: scale(1.05);
 }
 
 .scrollContainer {
@@ -407,18 +416,23 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
 }
 
 .viewButton {
-    background: linear-gradient(90deg, rgba(27,51,111,1) 0%, rgba(15,29,87,1)100%);
+    background: rgb(20,36,94);
+background: linear-gradient(90deg, rgba(20,36,94,1) 0%, rgba(5,14,47,1) 50%, rgba(24,60,125,1) 50%, rgba(9,23,50,1) 100%);
+transition: 0.5s ease-in-out;
+background-size: 200%;
+background-position: left;
     padding: 0.5rem 1rem;
     color: white;
     font-size: 1.3rem;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    transition: 0.2s ease  all;
+    transition: 0.5s ease  all;
 }
 
 .viewButton:hover {
   color: #e0861e;
+  background-position: right;
 }
 
 .date {
