@@ -251,11 +251,26 @@ const title = document.querySelector(".modelContent h1");
 const imageContainer = document.querySelector(".images");
 const factTitle = document.querySelector(".factTitle");
 const navbar = document.querySelector("nav");
+const call = document.querySelector(".call");
+const discord = document.querySelector(".discord");
 
 const details = document.querySelector(".details");
 
 const factContainer = document.querySelector(".factContainer");
 let place;
+
+call.addEventListener("click", () => {
+  alert("My phone number is 071-1436311");
+});
+
+discord.addEventListener("click", () => {
+  alert("My Discord Handle is chamindu_js#6588");
+});
+
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loaderr");
+  loader.style.transform = "translateY(-100%)";
+});
 
 
 const renderPlace = (item) => {
@@ -342,6 +357,7 @@ hamburger.addEventListener("click", function () {
 model.addEventListener("click", function () {
   model.classList.remove("active");
   modelContent.classList.remove("active");
+  
   details.innerHTML = "";
   imageContainer.innerHTML = "";
   factContainer.innerHTML = "";

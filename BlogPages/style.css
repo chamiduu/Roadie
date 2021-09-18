@@ -371,6 +371,29 @@ hr {
   margin-bottom: 5px;
 }
 
+.backButton {
+  position: fixed;
+  left: 10px;
+  top: 100px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 48px;
+  
+}
+
+.buttonn {
+  transition: 1s ease;
+}
+
+.backButton:hover {
+  background-color: #e48111;
+}
+
+.backButton:hover .buttonn {
+  transform: rotateX(360deg);
+}
+
 .progress {
   height: 10px;
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
@@ -425,6 +448,10 @@ hr {
   .blogWrapper {
     width: 90%;
   }
+
+  .backButton {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 740px) {
@@ -477,3 +504,4 @@ hr {
   }
 
 }
+
