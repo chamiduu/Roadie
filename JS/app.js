@@ -39,6 +39,8 @@ $(".menu").slick({
   ],
 });
 
+AOS.init();
+
 call.addEventListener("click", () => {
   alert("My phone number is 071-1436311");
 });

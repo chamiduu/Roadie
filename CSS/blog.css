@@ -294,6 +294,7 @@ box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.575);
     bottom: 0;
     left: 0;
     width: 100%;
+    animation: svg 20s infinite linear;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
@@ -394,6 +395,20 @@ background-position: left;
   transform: scale(1.05);
 }
 
+@keyframes svg {
+  0% {
+    width: 100%;
+  }
+  
+  50% {
+    width: 300%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
 .image {
     width: 25%;
     border-top-left-radius: 10px;
@@ -488,6 +503,7 @@ background-position: left;
     position: absolute;
     bottom: 0;
     left: 0;
+    animation: svg 20s infinite linear;
     width: 100%;
     overflow: hidden;
     line-height: 0;
