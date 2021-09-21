@@ -272,11 +272,9 @@ window.addEventListener("load", () => {
   loader.style.transform = "translateY(-100%)";
 });
 
-
 const renderPlace = (item) => {
-
   factTitle.innerHTML += " " + place;
-  console.log(factTitle)
+  console.log(factTitle);
   // Render the details in the container
   let placeName = document.createElement("h1");
   let placeDescription = document.createElement("p");
@@ -315,8 +313,6 @@ const renderPlace = (item) => {
   placeName.innerText = item.name;
   placeDescription.innerText = item.description;
 
-  
-
   details.appendChild(placeName);
   details.appendChild(placeDescription);
   imageContainer.appendChild(imageTall);
@@ -326,7 +322,7 @@ const renderPlace = (item) => {
   imageContainer.appendChild(image2);
 };
 
-button.forEach(link => {
+button.forEach((link) => {
   link.addEventListener("click", function () {
     modelContent.classList.add("active");
     model.classList.add("active");
@@ -349,19 +345,17 @@ hamburger.addEventListener("click", function () {
   details.innerHTML = "";
   imageContainer.innerHTML = "";
   factContainer.innerHTML = "";
-  
 });
-
-
 
 model.addEventListener("click", function () {
   model.classList.remove("active");
   modelContent.classList.remove("active");
-  
+
   details.innerHTML = "";
   imageContainer.innerHTML = "";
   factContainer.innerHTML = "";
-  factTitle.innerHTML = 'Here are some <span class="factHighlight">fun facts</span> about';
+  factTitle.innerHTML =
+    'Here are some <span class="factHighlight">fun facts</span> about';
 });
 
 closeModel.addEventListener("click", function () {
@@ -370,19 +364,14 @@ closeModel.addEventListener("click", function () {
   details.innerHTML = "";
   imageContainer.innerHTML = "";
   factContainer.innerHTML = "";
-  factTitle.innerHTML = 'Here are some <span class="factHighlight">fun facts</span> about';
+  factTitle.innerHTML =
+    'Here are some <span class="factHighlight">fun facts</span> about';
 });
 
 window.onscroll = function () {
   if (scrollY > 50) {
     navbar.classList.add("active");
-  }
-  else {
+  } else {
     navbar.classList.remove("active");
   }
 };
-
-
-
-
-

@@ -52,7 +52,7 @@ discord.addEventListener("click", () => {
 window.addEventListener("load", () => {
   const loader = document.querySelector(".loaderr");
   loader.style.transform = "translateY(-100%)";
-})
+});
 
 hamburger.addEventListener("click", function () {
   mobileNav.classList.toggle("active");
