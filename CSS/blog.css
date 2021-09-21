@@ -428,6 +428,7 @@ nav.active {
   width: 25%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  object-fit: cover;
 }
 
 .content {
@@ -484,39 +485,6 @@ nav.active {
   font-size: 1rem;
   margin-top: 20px;
   color: #4d608a;
-}
-
-.model {
-  display: none;
-}
-
-.model.active {
-  background: #1a203f86;
-  display: block;
-  position: fixed;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 999;
-}
-
-.modelContent {
-  display: none;
-}
-
-.modelContent.active {
-  background: #ffffff;
-  position: fixed;
-  display: block;
-  width: 80%;
-  height: 80vh;
-  top: 10vh;
-  left: 10%;
-  border-radius: 10px;
-  z-index: 9999;
-  overflow: scroll;
-  overflow-x: hidden;
 }
 
 .custom-shape-divider-bottom-1631607238 {
