@@ -790,6 +790,7 @@ nav.active {
   cursor: pointer;
 }
 
+
 .allBlogs:hover {
   background-position: right;
 }
@@ -1082,5 +1083,9 @@ footer {
   .trendingTitle {
     font-size: 2rem;
     text-align: center;
+  }
+
+  .allBlogs {
+    left: 33%;
   }
 }
