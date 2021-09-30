@@ -119,6 +119,25 @@ const data = [
       "The volcano is also known for being home of the warrior culture in Japan – the Samurais used the area for training. More recently, military camps from both Japan and the USAhave operated from Mt. Fuji.",
     ],
   },
+  {
+    name: "Anuradhapura",
+    description:
+      "Anuradhapura is a major city in Sri Lanka. It is the capital city of North Central Province, Sri Lanka and the capital of Anuradhapura District. Anuradhapura is one of the ancient capitals of Sri Lanka, famous for its well-preserved ruins of an ancient Sinhala civilization.",
+    imageWide:
+      "https://images.unsplash.com/photo-1621393614326-2f9ed389ce02?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1593709942239-e423f46750c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80",
+    image1:
+      "https://images.unsplash.com/photo-1625736300986-175f07d0032b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    image2:
+      "https://media.istockphoto.com/photos/meditation-rock-in-mihintaleon-sunset-sri-lanka-picture-id1320918174?b=1&k=20&m=1320918174&s=170667a&w=0&h=hNqnlrBB7Je8CWeXHgqZ8jcILBS7n-rwP8BtCk7Dizk=",
+    facts: [
+      "Srilanka's First Kingdom",
+      "Built by King Pandukabhaya by extending anuradhagrama",
+      "Anuradhapura was a major intellectual centre for early Theravāda Buddhism, home to revered Buddhist philosophers including Buddhaghosa.",
+      "Various excavations have taken place at the site, beginning in 1884-86 by Stephen Montagu Burrows.",
+    ],
+  },
 
   {
     name: "Golden Gate Bridge",
