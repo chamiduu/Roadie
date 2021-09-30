@@ -258,6 +258,66 @@ const data = [
       "Big Ben is lit both in the literal sense and the millennial meaning of the word. In the literal sense, the faces of the clocks are lit by 28 85-watt bulbs that are so energy efficient, they can last up to 60,000 hours – that translates to 2,500 days or almost 7 years!",
     ],
   },
+  
+  {
+    name: "Grand Canyon",
+    description:
+      "This incredible natural attraction is one of the most visited places in the United States. Carved out by the Colorado River, the Grand Canyon cuts deep into the landscape, creating dramatic cliff walls and ledges.",
+    imageWide:
+      "https://images.unsplash.com/photo-1615551043360-33de8b5f410c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1501258338179-b25f87809429?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z3JhbmQlMjBjYW55b258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    image1:
+      "https://images.unsplash.com/photo-1575527048208-6475b441e0a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
+    image2:
+      "https://images.unsplash.com/photo-1546811969-e035719e4c9b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGdyYW5kJTIwY2FueW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    facts: [
+      "The Grand Canyon is bigger than the state of Rhode Island. The Grand Canyon is a mile deep, 277 miles long and 18 miles wide. While the park doesn’t include the entire canyon, it does measure in at a whopping 1,904 square miles in total. In comparison, Rhode Island is around 1,212 square miles.",
+      "The Grand Canyon itself can influence the weather. The Grand Canyon has an elevation spanning from around 2,000 feet to over 8,000 feet, allowing it to experience a variety of weather conditions. As a result, the temperature generally increases by 5.5 degrees with each 1,000-feet loss in elevation.",
+      "President Theodore Roosevelt first visited the Grand Canyon in 1903 and was deeply moved by the unique landscape. In 1906, Roosevelt signed a bill that proclaimed the area the Grand Canyon Game Reserve, and two years later, he made it a national monument.",
+      " Tucked within the Grand Canyon are an estimated 1,000 caves, and of those, 335 have been recorded.",
+    ],
+  },
+  
+  {
+    name: "St. Louis Arch",
+    description:
+      "This famous 'Gateway to the West' in St. Louis is both symbolic and eye-catching. Rising above the city, gleaming in the midday sun and illuminated at night, the arch can be seen from miles away on the otherwise flat surroundings.",
+    imageWide:
+      "https://images.unsplash.com/photo-1514893011-72dfa15bd29c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3QlMjBsb3VpcyUyMGFyY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    imageTall:
+      "https://images.unsplash.com/photo-1616993165693-f3a9ff0f9693?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3QlMjBsb3VpcyUyMGFyY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    image1:
+      "https://images.unsplash.com/photo-1595647274814-7cfbf1e344d0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3QlMjBsb3VpcyUyMGFyY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    image2:
+      "https://images.unsplash.com/photo-1596484817456-03cc6ca031f5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN0JTIwbG91aXMlMjBhcmNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    facts: [
+      "The arch is hollow to accommodate a unique tram system that takes visitors to an observation deck at the top.",
+      "The Gateway Arch is one of the most visited tourist attractions in the world with over four million visitors annually, of which around one million travel to the top.",
+      "The arch is 630 feet tall and 630 feet wide. Since you’re not always looking at the arch straight on, you experience an illusion that it’s much taller than it is wide.",
+      "To climb to the top of the arch by foot, you would have to take 1,076 steps. By comparison, the Washington Monument has 897, and The Willis Tower in Chicago has 2,109 steps.",
+    ],
+  },
+    
+  {
+    name: "Waikiki",
+    description:
+      "Home to the most popular beach in the Hawaiian Islands and possibly the most famous beach in the Pacific, Waikiki has been a tourist destination for over a century. Today this area is a cross between tropical paradise and modern city.",
+    imageWide:
+      "https://images.unsplash.com/photo-1507876466758-bc54f384809c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2Fpa2lraXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    imageTall:
+      "https://images.unsplash.com/photo-1590128918419-567be937a591?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Fpa2lraXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    image1:
+      "https://images.unsplash.com/photo-1591307806437-cc4da031689b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdhaWtpa2l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    image2:
+      "https://images.unsplash.com/photo-1605997785662-558a2f6e3162?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHdhaWtpa2l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    facts: [
+      "The famous destination was first introduced to the world in 1901 when the Moana Surfrider was built on its shores. It is often referred to as “The First Lady of Waikiki.”",
+      "The world famous Waikiki Beach draws millions of tourism to its white sands and turquoise waters each year, accounting for approximately 42 percent of the state’s tourist industry revenue, roughly $2 billion annually.",
+      "Waikiki Beach may be incredibly famous, but it is actually a series of five beaches. From Ewa to Diamond Head, these beaches include Duke Kahanamoku, Fort DeRussy, Gray’s, Waikiki and Kuhio",
+      "Waikiki is the birthplace of modern surfing: the father of modern surfing, Duke Kahanamoku grew up in Waikiki, where the Royal Hawaiian Hotel stands today.",
+    ],
+  },
 ];
 
 const mobileNav = document.querySelector(".links");
