@@ -119,6 +119,27 @@ const data = [
       "The volcano is also known for being home of the warrior culture in Japan – the Samurais used the area for training. More recently, military camps from both Japan and the USAhave operated from Mt. Fuji.",
     ],
   },
+  
+  {
+    name: "Tokyo Disneyland",
+    description: "Tokyo Disneyland is a 115-acre theme park at the Tokyo Disney Resort in Urayasu, Chiba Prefecture, Japan, near Tokyo. Its main gate is directly adjacent to both Maihama Station and Tokyo Disneyland Station. It was the first Disney park to be built outside the United States and it opened on April 15, 1983.",
+    imageWide:
+      "https://images.unsplash.com/photo-1624601573012-efb68931cc8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1568034428931-37066a56fac4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80",
+    image1:
+      "https://images.unsplash.com/photo-1565839751802-33cd9264527c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    image2:
+      "https://images.unsplash.com/photo-1547782101-30c84b97a71b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    facts: [
+      "There is a diversity of popcorn stations encompassing both parks with all sorts of absurd flavors like soy sauce, strawberry, chocolate, and honey that vary seasonally.",
+      "Tokyo Disney Resort is actually located in the city of Urayasu, which is part of the Chiba prefecture east of Tokyo.",
+      "One of the preferred parts of Tokyo DisneySea is Mermaid Lagoon.",
+      "This myth continues throughout Japan, with many people genuinely terrified to take their significant other on a TDL date lest the Disney scourge strikes their connection.",
+    ],
+  },
+  
+  
   {
     name: "Anuradhapura",
     description:
