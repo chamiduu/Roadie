@@ -263,7 +263,7 @@ const data = [
   {
     name: "St. Louis Arch",
     description:
-      "This famous "Gateway to the West" in St. Louis is both symbolic and eye-catching. Rising above the city, gleaming in the midday sun and illuminated at night, the arch can be seen from miles away on the otherwise flat surroundings.",
+      "This famous 'Gateway to the West' in St. Louis is both symbolic and eye-catching. Rising above the city, gleaming in the midday sun and illuminated at night, the arch can be seen from miles away on the otherwise flat surroundings.",
     imageWide:
       "https://images.unsplash.com/photo-1514893011-72dfa15bd29c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3QlMjBsb3VpcyUyMGFyY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     imageTall:
@@ -287,7 +287,7 @@ const data = [
     imageWide:
       "https://images.unsplash.com/photo-1507876466758-bc54f384809c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2Fpa2lraXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     imageTall:
-      https://images.unsplash.com/photo-1590128918419-567be937a591?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Fpa2lraXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1590128918419-567be937a591?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Fpa2lraXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     image1:
       "https://images.unsplash.com/photo-1591307806437-cc4da031689b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdhaWtpa2l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     image2:
