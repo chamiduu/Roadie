@@ -357,6 +357,25 @@ const data = [
       "Gladiatorial shows took place at the Colosseum",
       "The Colosseum is over 1,900 years old",
     ],
+  },
+  {
+    name: "Hiroshima Peace Memorial Museum",
+    description:
+      "The main building of Hiroshima's premier museum houses a collection of items salvaged from the aftermath of the atomic bomb. The displays are confronting and personal – ragged clothes, a child's melted lunchbox, a watch stopped at 8.15am – and there are some grim photographs. While upsetting, it's a must-see in Hiroshima. The east building presents a history of Hiroshima and of the development and destructive power of nuclear weapons.",
+    imageWide:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF5KfOdzycSzdS65hETK_2sSuAW9D6QSHhrCegh5DXGFx9mYzLk_HKKnKs6CpclBuV9jU&usqp=CAU",
+    imageTall:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRabUWF-1TjYufNqLpTvf-tVAIOH1HO2kRQvA&usqp=CAU",
+    image1:
+      "http://japantraveladvice.com/wp-content/uploads/2012/12/Hiroshima-Peace-Memorial-Museum-1024x768.jpg",
+    image2:
+      "https://hiroshimaforpeace.com/en/wp-content/uploads/sites/2/2020/12/9EB0F1EE-4F98-40A0-87A7-E7CF24C93F4D_1_201_a-1024x768.jpeg",
+    facts: [
+      "A tranquil spot covering over 120,000 square meters, it serves to memorialize the great many lives lost in the world's first nuclear attack, while making use of nature to reaffirm the preciousness of all life.",
+      "The Association for the Mobilized Student Victims of Hiroshima Prefecture built this tower in May 1967 in order to console the souls of over 10,000 students, including those who were Atomic Bomb victims, who died in bombings during the Pacific War.",
+      "The cenotaph consists of a stone chest beneath an arch representing the roof, inspired by the haniwa pottery used to decorate prehistoric tombs. It is also known as the Memorial Monument for Hiroshima, City of Peace, because it was built out of a desire to reconstruct postwar Hiroshima as a city dedicated to peace",
+      'The Atomic Bomb Dome was constructed in 1915 as a facility for the display and sale of commercial products within Hiroshima prefecture and was the location for the Hiroshima prefecture art exhibition and other such events. When it was established, it was called that "Hiroshima Prefectural Commercial Exhibition Hall".',
+    ],
   }
 ];
 
