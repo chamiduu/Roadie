@@ -339,6 +339,25 @@ const data = [
       "Waikiki is the birthplace of modern surfing: the father of modern surfing, Duke Kahanamoku grew up in Waikiki, where the Royal Hawaiian Hotel stands today.",
     ],
   },
+  {
+    name: "Colosseum",
+    description:
+      "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age",
+    imageWide:
+      "https://images.unsplash.com/photo-1612986023929-569221d13721?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=875&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1575407271714-bea14dd89953?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=504&q=80",
+    image1:
+      "https://lp-cms-production.imgix.net/2021-05/shutterstockRF_413946151.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850",
+    image2:
+      "https://images.unsplash.com/photo-1548585744-d530258a20e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    facts: [
+      "The Colosseum is famous for being the world’s largest amphitheater",
+      "You can see a section of the arena that was once underground",
+      "Gladiatorial shows took place at the Colosseum",
+      "The Colosseum is over 1,900 years old",
+    ],
+  }
 ];
 
 const mobileNav = document.querySelector(".links");
