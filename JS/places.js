@@ -119,10 +119,11 @@ const data = [
       "The volcano is also known for being home of the warrior culture in Japan – the Samurais used the area for training. More recently, military camps from both Japan and the USAhave operated from Mt. Fuji.",
     ],
   },
-  
+
   {
     name: "Tokyo Disneyland",
-    description: "Tokyo Disneyland is a 115-acre theme park at the Tokyo Disney Resort in Urayasu, Chiba Prefecture, Japan, near Tokyo. Its main gate is directly adjacent to both Maihama Station and Tokyo Disneyland Station. It was the first Disney park to be built outside the United States and it opened on April 15, 1983.",
+    description:
+      "Tokyo Disneyland is a 115-acre theme park at the Tokyo Disney Resort in Urayasu, Chiba Prefecture, Japan, near Tokyo. Its main gate is directly adjacent to both Maihama Station and Tokyo Disneyland Station. It was the first Disney park to be built outside the United States and it opened on April 15, 1983.",
     imageWide:
       "https://images.unsplash.com/photo-1624601573012-efb68931cc8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     imageTall:
@@ -138,8 +139,7 @@ const data = [
       "This myth continues throughout Japan, with many people genuinely terrified to take their significant other on a TDL date lest the Disney scourge strikes their connection.",
     ],
   },
-  
-  
+
   {
     name: "Anuradhapura",
     description:
