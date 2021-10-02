@@ -3,7 +3,7 @@ const data = [
   {
     name: "Sigiriya",
     description:
-      "Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. The name refers to a site of historical and archaeological significance that is dominated by a massive column of rock around 180 metres high.",
+      "Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. The name refers to a site with historical and archaeological significance that is dominated by a massive column of rock around 180 metres high.",
     imageWide:
       "https://images.unsplash.com/photo-1612862862126-865765df2ded?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
     imageTall:
@@ -23,7 +23,7 @@ const data = [
   {
     name: "Lotus Tower",
     description:
-      "Lotus Tower (Sinhala: නෙලුම් කුලුන; Tamil: தாமரைக் கோபுரம்), also referred to as Colombo Lotus Tower, is a tower 350 m (1,150 ft) high, located in Colombo, Sri Lanka. It has been called a symbolic landmark of Sri Lanka. As of 2019, the tower is the tallest self-supported structure in South Asia; the second tallest structure in South Asia after the guy-wire-supported INS Kattabomman in India; the 11th tallest tower in Asia and the 19th tallest tower in the world. It was first proposed to be built in the suburb of Peliyagoda but later the Government of Sri Lanka decided to change the location. The lotus-shaped tower is used for communication, observation and other leisure facilities. Construction cost $104.3 million, funded by EXIM Bank of People's Republic of China.",
+      "Lotus Tower (Sinhala: නෙලුම් කුලුන; Tamil: தாமரைக் கோபுரம்), also referred to as Colombo Lotus Tower is a tower 350 m (1,150 ft) high, located in Colombo, Sri Lanka. It has been called a symbolic landmark of Sri Lanka. As of 2019, the tower is the tallest self-supported structure in South Asia; the second tallest structure in South Asia after the guy-wire-supported INS Kattabomman in India; the 11th tallest tower in Asia, and the 19th tallest tower in the world. It was first proposed to be built in the suburb of Peliyagoda, but later the Government of Sri Lanka decided to change the location. The lotus-shaped tower is used for communication, observation and other leisure facilities. Construction cost $104.3 million, funded by EXIM Bank of the People's Republic of China.",
     imageWide:
       "https://images.unsplash.com/photo-1546656495-fc838de15e5c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     imageTall:
