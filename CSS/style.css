@@ -242,6 +242,7 @@ nav.active {
 }
 
 @media screen and (max-width: 986px) {
+
   .hamburger {
     display: block;
   }
@@ -382,6 +383,7 @@ nav.active {
   width: 70%;
   color: #142361;
   font-size: 1.2rem;
+  padding-bottom: 320px;
 }
 
 .author {
@@ -889,6 +891,9 @@ footer {
     grid-template-columns: 200px 200px;
     grid-template-rows: 150px 150px 150px;
     justify-content: flex-end;
+  }
+  .quote{
+    padding-bottom: 0px;
   }
 
   .headerWrapper,
