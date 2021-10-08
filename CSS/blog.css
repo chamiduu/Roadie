@@ -677,3 +677,7 @@ footer {
     border-radius: 10px;
   }
 }
+
+.swal2-confirm{
+  background-color: #142361 !important;
+}

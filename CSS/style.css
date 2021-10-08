@@ -1094,3 +1094,7 @@ footer {
     left: 33%;
   }
 }
+
+.swal2-confirm{
+  background-color: #142361 !important;
+}
