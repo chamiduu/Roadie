@@ -446,19 +446,19 @@ nav.active {
 }
 
 .model {
-  display: none;
-  animation: modal 0.5s ease;
-}
-
-.model.active {
-  background: #1a203f86;
-  display: block;
   position: fixed;
-  height: 100vh;
+  display: block;
   width: 100%;
+  height: 0vh;
   top: 0;
   left: 0;
   z-index: 999;
+  transition: 0.5s ease;
+  background: #1a203f86;
+}
+
+.model.active {
+  height: 100vh;
 }
 
 .modelContent {
@@ -902,4 +902,8 @@ footer {
     width: 80%;
     margin-bottom: 50px;
   }
+}
+
+.swal2-confirm{
+  background-color: #142361 !important;
 }

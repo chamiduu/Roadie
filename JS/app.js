@@ -42,11 +42,21 @@ $(".menu").slick({
 AOS.init();
 
 call.addEventListener("click", () => {
-  alert("My phone number is 071-1436311");
+  Swal.fire({
+    imageUrl: 'https://i.ibb.co/d04JBmC/image.png',
+    imageWidth: 75,
+    imageHeight: 75,
+    html:  `My phone number is <b><a href="tel:+94711436311">071-1436311</a></b>`,
+  })
 });
 
 discord.addEventListener("click", () => {
-  alert("My Discord Handle is chamindu_js#6588");
+  Swal.fire({
+    imageUrl: 'https://i.ibb.co/JsdzLhm/image-2021-10-08-173444.png',
+    imageWidth: 75,
+    imageHeight: 75,
+    html:  `My Discord Handle is <b>chamindu_js#6588</b>`,
+  })
 });
 
 window.addEventListener("load", () => {

@@ -488,6 +488,7 @@ nav.active {
 
 .content img {
   width: 100%;
+  max-height: 80vh;
   height: auto;
 }
 
@@ -679,4 +680,8 @@ footer {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+}
+
+.swal2-confirm{
+  background-color: #142361 !important;
 }
