@@ -301,26 +301,6 @@ const data = [
   },
   
   {
-    name: "Buckingham Palace",
-    description:
-      "Buckingham Palace is a must for anybody visiting London. Maybe you're a massive fan of the royal family, or you simply want to see one of Britain's biggest cultural landmarks. No matter. You'll find something to love inside its large, lavish walls. The palace has a rather long and colourful history. It wouldn't be British without one.",
-    imageWide:
-      "https://images.unsplash.com/photo-1556821862-33ec0be5c2c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80",
-    imageTall:
-      "https://images.unsplash.com/flagged/photo-1565591269817-b3a02510519f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=356&q=80",
-    image1:
-      "https://images.unsplash.com/photo-1549895058-36748fa6c6a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-    image2:
-      "https://images.unsplash.com/photo-1595841044697-86e94ea53c77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
-    facts: [
-      "The original Buckingham House was transformed by the esteemed architect John Nash into what it is today. However, he accidentally went over budget. Take a look at the gilded detailing and you'll probably have an idea as to why. He was eventually fired from the project. But without his mistake, we would have the palace we all know and love today. So really, Nash should be pardoned. If that's a thing that can be done.",
-      "The Royal Collection of artworks spans sculptures, paintings, tapestries and more. But what you'll see in the palace is just a small collection of the gigantic treasury.",
-      "Buckingham Palace has hosted thousands of visitors throughout the years. And with a whopping 775 rooms, it's not hard to see how. That includes 52 royal and guest bedrooms, 188 staff bedrooms, 78 bathrooms, 19 staterooms and 78 bathrooms.",
-      "It's not just Queen Elizabeth, sitting on her own in the ballroom. Prince Phillip and Prince Edward, his wife and daughter all also reside there. There's all the small matter of the royal household - there's a casual 800+ staff who also call the palace home.",
-    ],
-  },
-
-  {
     name: "Grand Canyon",
     description:
       "This incredible natural attraction is one of the most visited places in the United States. Carved out by the Colorado River, the Grand Canyon cuts deep into the landscape, creating dramatic cliff walls and ledges.",
