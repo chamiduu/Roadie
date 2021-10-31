@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.7/dist/sweetalert2.all.min.js"></script>
+    <title>Roadie</title>
+  </head>
+  <body>
+    <div class="loaderr">
+      <div class="loader-inner">
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <a href="./index.html" class="brand-logo">Roadie</a>
+      <ul class="links">
+        <li class="link">
+          <b> <a href="#" style="color: #f2870c">Home</a> </b>
+        </li>
+        <li class="link"><a href="./places.html">Places</a></li>
+        <li class="link"><a href="./blog.html">Blog</a></li>
+        <li class="link"><a href="./gallery.html">Gallery</a></li>
+      </ul>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+    <section class="headerContainer">
+      <div class="headerWrapper">
+        <div class="headerInfo">
+          <h1 class="headerTitle">Discover New <span> Destinations</span></h1>
+          <div class="headerDescription">
+           <b>Want to get the experience of a trip?</b> <br> <b>Hard to travel?</b> <br> Discover New Destinations. See breath-taking places and experience them from your device online.
+          </div>
+          <a href="#places">
+            <button class="headerButton">
+              Discover New
+              <span class="buttonHighlight"
+                ><img
+                  src="./Images/icon.svg"
+                  alt="sd"
+                  class="cocoIcon"
+                />Locations</span
+              >
+            </button>
+          </a>
+
+          <div class="quote">
+            <h4 class="quoteText">
+              <i>
+                “I am not the same, having seen the moon shine on the other side
+                of the world”
+              </i>
+            </h4>
+            <h4 class="author">– Mary Anne Radmacher</h4>
+          </div>
+        </div>
+        <div class="images">
+          <div
+            class="image wide"
+            style="
+              background-image: url(./Images/pexels-alexandr-podvalny-3278215.jpg);
+            "
+          ></div>
+
+          <div
+            class="image"
+            style="background-image: url(./Images/pexels-c-cagnin-2007401.jpg)"
+          ></div>
+
+          <div
+            class="image tall"
+            style="
+              background-image: url(./Images/pexels-ian-beckley-2440079.jpg);
+            "
+          ></div>
+
+          <div
+            class="image"
+            style="
+              background-image: url(./Images/pexels-johannes-plenio-1119972.jpg);
+            "
+          ></div>
+
+          <div
+            class="image"
+            style="background-image: url(./Images/pexels-mark-neal-2225439.jpg)"
+          ></div>
+          <div
+            class="image wide"
+            style="
+              background-image: url(./Images/pexels-mali-maeder-1483024.jpg);
+            "
+          ></div>
+        </div>
+      </div>
+
+      <div class="custom-shape-divider-bottom-1630587725">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <section class="trending" id="places">
+      <div class="trendingWrapper">
+        <img src="./Images/leaf.svg" class="trendingSVG1" />
+        <!-- <img src="./Images/tower.svg" class="trendingSVG2">  -->
+        <h1 class="trendingTitle" data-aos="fade-up" data-aos-duration="2000">
+          Discover <span class="buttonHighlight">Trending Attractions</span>
+        </h1>
+        <div class="menu-wrapper">
+          <div class="menu">
+            <div class="item">
+              <div class="item-content">
+                <div
+                  class="item-image"
+                  style="
+                    background: url(https://images.unsplash.com/photo-1612862862126-865765df2ded?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                  "
+                >
+                  <div class="location">
+                    <img src="./Images/location.png" />
+                    <p class="place">The top of Sigiriya rock</p>
+                  </div>
+                </div>
+                <div class="placeTitle">Sigiriya <span></span></div>
+                <div class="placeDescription">
+                  Sigiriya or Sinhagiri is an ancient rock fortress located in
+                  the northern Matale District near the town of Dambulla in the
+                  Central Province, Sri Lanka. The name refers to a site of
+                  historical and archaeological significance that is dominated
+                  by a massive column of rock around 180 metres high.
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-content">
+                <div
+                  class="item-image"
+                  style="
+                    background: url(https://images.unsplash.com/photo-1542542540-6da0f4dd4b51?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+                    background-position: center;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                  "
+                >
+                  <div class="location">
+                    <img src="./Images/location.png" />
+                    <p class="place">Tokyo Tower</p>
+                  </div>
+                </div>
+                <div class="placeTitle">Tokyo <span></span></div>
+                <div class="placeDescription">
+                  Tokyo, Japan’s busy capital, mixes the ultramodern and the
+                  traditional, from neon-lit skyscrapers to historic temples.
+                  The opulent Meiji Shinto Shrine is known for its towering gate
+                  and surrounding woods.
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-content">
+                <div
+                  class="item-image"
+                  style="
+                    background: url(https://images.unsplash.com/photo-1524726240783-939bfdd633e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+                    background-position: center;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                  "
+                >
+                  <div class="location">
+                    <img src="./Images/location.png" />
+                    <p class="place">Ella waterfall</p>
+                  </div>
+                </div>
+                <div class="placeTitle">Ella <span></span></div>
+                <div class="placeDescription">
+                  Ella is a small town in the Badulla District of Uva Province,
+                  Sri Lanka governed by an Urban Council. It is approximately
+                  200 kilometres east of Colombo and is situated at an elevation
+                  of 1,041 metres above sea level.
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div
+                class="item-image"
+                style="
+                  background: url(https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);
+                  background-position: center;
+                  background-size: 100%;
+                  background-repeat: no-repeat;
+                "
+              >
+                <div class="location">
+                  <img src="./Images/location.png" />
+                  <p class="place">San Francisco</p>
+                </div>
+              </div>
+              <div class="placeTitle">Golden Gate Bridge <span></span></div>
+              <div class="placeDescription">
+                The Golden Gate Bridge is a suspension bridge spanning the
+                Golden Gate, the one-mile-wide strait connecting San Francisco
+                Bay and the Pacific Ocean. A marvel of modern engineering, the
+                Golden Gate Bridge is 1.7 miles long and 90 feet wide.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="custom-shape-divider-bottom-1630600827">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <h1 class="blogsTitle" data-aos="fade-up" data-aos-duration="3000">
+        Latest <span class="buttonHighlight">Blogs</span>
+      </h1>
+      <div class="blogsContainer">
+        <div class="blogsContent">
+          <div class="blog">
+            <img
+              src="https://images.unsplash.com/photo-1604928141064-207cea6f571f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80"
+            />
+            <h3 class="blogTitle">
+              6 Days in Tokyo Itinerary: Complete Guide for First-Timers
+            </h3>
+            <a href="./BlogPages/tokyo.html"
+              ><button class="readBlog">Read</button></a
+            >
+          </div>
+
+          <div class="blog">
+            <img
+              src="https://images.unsplash.com/photo-1535747790212-30c585ab4867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1011&q=80"
+            />
+            <h3 class="blogTitle">
+              HOW TO VISIT LAGO DI BRAIES – ITALY’S ALLURING EMERALD-GREEN LAKE
+            </h3>
+            <a href="./BlogPages/italy.html"
+              ><button class="readBlog">Read</button></a
+            >
+          </div>
+
+          <div class="blog">
+            <img
+              src="https://images.unsplash.com/photo-1626091022888-485eb96c494a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+            />
+            <h3 class="blogTitle">
+              Living 24 Hours in the city of Kandy, The Heart of Sri Lanka
+            </h3>
+            <a href="./BlogPages/kandy.html"
+              ><button class="readBlog">Read</button></a
+            >
+          </div>
+        </div>
+        <a href="./blog.html"
+          ><button data-aos="fade-up" data-aos-duration="2000" class="allBlogs">
+            Read More
+          </button></a
+        >
+      </div>
+
+      <div class="funFact" data-aos="fade-up" data-aos-duration="2000">
+        <div class="factContent">
+          <h1 class="funFactTitle">
+            <span class="highlightText">Fun Fact</span> Of the Day
+          </h1>
+          <p class="fact">
+            Besides the U.S., every developed country in the world extends at
+            least one legally required paid vacation day or holiday to its
+            employees.
+          </p>
+
+          <p class="fact">
+            The most generous country? Austria, which has
+            <span class="highlightTextSec"
+              >a legal minimum of 22 paid vacation days per year</span
+            >, on top of 13 paid holidays!
+          </p>
+        </div>
+      </div>
+
+      <div class="custom-shape-divider-bottom-1631607238">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footerDetails">
+        <div class="footerDescription">
+          <h1 class="footerTitle">Roadie</h1>
+          <p class="footerPara">
+            Discover New Destinations. See breath-taking places and experience
+            them from your device online.
+            <br />
+            Our travel writing captures the one thing we always strive to create
+            – incredible travel experiences. From learning about the historical
+            and political context of a destination to finding some really great
+            hikes, each new place has something to discover.
+            <br />
+            We have a passion for storytelling, a knack for putting itineraries
+            together and a strong desire to have fun. Here are all our
+            adventures, our travel tips and our guides.
+          </p>
+        </div>
+
+        <div class="footerContact">
+          <h1 class="contactTitle">Contact Me</h1>
+          <p class="contactPara">
+            If you want to make any inquiries about the website, you can contact
+            me through below options
+          </p>
+          <div class="contactOptions">
+            <a
+              href="https://github.com/chamindujs"
+              target="_blank"
+              class="contactOption"
+            >
+              <abbr title="GitHub">
+                <img
+                  src="https://img.icons8.com/ios-glyphs/60/ca7717/github.png"
+                />
+              </abbr>
+            </a>
+            <a
+              href="https://wa.link/1yweij"
+              target="_blank"
+              class="contactOption"
+            >
+              <abbr title="WhatsApp">
+                <img
+                  src="https://img.icons8.com/material-outlined/48/ca7717/whatsapp--v1.png"
+                />
+              </abbr>
+            </a>
+            <div class="contactOption call">
+              <abbr title="Call">
+                <img src="https://img.icons8.com/ios/48/ca7717/phone.png" />
+              </abbr>
+            </div>
+            <a
+              href="mailto:chamindujs@gmail.com"
+              target="_blank"
+              class="contactOption"
+            >
+              <abbr title="Gmail">
+                <img src="https://img.icons8.com/ios/50/ca7717/gmail-new.png" />
+              </abbr>
+            </a>
+            <div href="" class="contactOption discord">
+              <abbr title="Discord">
+                <img
+                  src="https://img.icons8.com/ios/50/ca7717/discord-logo--v1.png"
+                />
+              </abbr>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerCopyright">
+        <p>
+          This website is designed and developed by
+          <span>Chamindu Jayanath</span> for the competition
+          <span>Digitron '21</span>
+        </p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
