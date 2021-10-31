@@ -61,6 +61,26 @@ const data = [
   },
 
   {
+    name: "Polonnaruwa",
+    description:
+      "Polonnaruwa is a major city in Sri Lanka dating back before 1070AD. It is a city in North Central Province, Sri Lanka and the capital of Polonnaruwa District. Polonnaruwa is one of the ancient capitals of Sri Lanka, famous for its well-preserved ruins of an ancient Sinhala civilization.",
+    imageWide:
+      "https://i.pinimg.com/564x/26/23/d9/2623d91512e675c972291bafc2b7ba65.jpg",
+    imageTall:
+      "https://i.pinimg.com/564x/95/83/8a/95838a54b047d84b2a7e79e2c1febe76.jpg",
+    image1:
+      "https://i.pinimg.com/564x/1c/b1/6b/1cb16bb4b8fe397cf7ee894d692f39b8.jpg",
+    image2:
+      "https://i.pinimg.com/564x/3f/c7/72/3fc77240cb0ef0333c19a4543fbdec3d.jpg",
+    facts: [
+      "Polonnaruwa is famous for its marvellous irrigation systems which were mainly built during the ruling period of King Parakramabahu I, especially the irrigation system called the Parakrama Samudraya.",
+      "The Parakrama Samudraya resovoir which was built by expanding the Eramudu Wewa and the Dambutulu Wewa and has an area of around 22.6 Square Kilometers.",
+      "Polonnaruwa was the Second Kingdom in Sri Lanka which was ruled by many great rulers such as King Parakramabahu, King Viayabahu, King Nissankamalla etc.",
+      "Polonnaruwa is a UNESCO World Heritage Site and sacred to Sri Lankans.",
+    ],
+  },
+
+  {
     name: "Tokyo",
     description:
       "Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum)",
