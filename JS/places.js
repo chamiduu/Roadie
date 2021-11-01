@@ -323,7 +323,7 @@ const data = [
   {
     name: "London Eye",
     description:
-      "Buckingham Palace is a must for anybody visiting London. Maybe you're a massive fan of the royal family, or you simply want to see one of Britain's biggest cultural landmarks. No matter. You'll find something to love inside its large, lavish walls. The palace has a rather long and colourful history. It wouldn't be British without one.",
+      "Even though the London Eye is one of London’s newest landmarks, it is increasingly popular and so considered just as important as some of the more historic landmarks around the city. Constructed in 1998, the London Eye, a large Ferris wheel-like attraction has become an inseparable part of the city. As such, check out these interesting facts about the London Eye, as well as its very unique history.",
     imageWide:
       "https://images.unsplash.com/photo-1413725834248-42db82938bef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     imageTall:
@@ -333,10 +333,10 @@ const data = [
     image2:
       "https://images.unsplash.com/photo-1470016342826-876ea880d0be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     facts: [
-      "The original Buckingham House was transformed by the esteemed architect John Nash into what it is today. However, he accidentally went over budget. Take a look at the gilded detailing and you'll probably have an idea as to why. He was eventually fired from the project. But without his mistake, we would have the palace we all know and love today. So really, Nash should be pardoned. If that's a thing that can be done.",
-      "The Royal Collection of artworks spans sculptures, paintings, tapestries and more. But what you'll see in the palace is just a small collection of the gigantic treasury.",
-      "Buckingham Palace has hosted thousands of visitors throughout the years. And with a whopping 775 rooms, it's not hard to see how. That includes 52 royal and guest bedrooms, 188 staff bedrooms, 78 bathrooms, 19 staterooms and 78 bathrooms.",
-      "It's not just Queen Elizabeth, sitting on her own in the ballroom. Prince Phillip and Prince Edward, his wife and daughter all also reside there. There's all the small matter of the royal household - there's a casual 800+ staff who also call the palace home.",
+      "When erected in 1999 it was the world’s tallest Ferris wheel. Its height was surpassed by the 158 meters (520 feet) tall Star of Nanchang in 2006. Today it is Europe’s tallest Ferris wheel and the fourth-tallest Ferris wheel in the world.",
+      "There are 32 ovoidal capsules, or one for each of the London boroughs. The capsules are numbered 1 to 33, with no capsule number 13 for superstitious reasons. Each of the 32 capsules weighs 10 tonnes (11 US tons) and can carry 25 people.",
+      "The wheel rotates at 26 centimeters (10 inches) per second (about 0.9 kph or 0.6 mph) so that one revolution takes about 30 minutes. It does not usually stop to take on passengers; the rotation rate is slow enough to allow passengers to walk on and off the moving capsules at ground level.",
+      "On each rotation the London Eye has the capacity to carry 800 passengers, which is equivalent to 11 London red double-decker buses.",
     ],
   },
 
