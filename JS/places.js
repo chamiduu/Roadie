@@ -341,6 +341,27 @@ const data = [
   },
 
   {
+    name: "Venice",
+    description:
+      "Venice, the capital of northern Italy’s Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals – including the Grand Canal thoroughfare – lined with Renaissance and Gothic palaces.",
+    imageWide:
+      "https://a.cdn-hotels.com/gdcs/production143/d798/8d1f7b4d-99b8-4be3-9c43-ab67b36d0eab.jpg",
+    imageTall:
+      "https://pbs.twimg.com/media/CX6Mx70UEAApz5q?format=jpg&name=4096x4096",
+    image1:
+      "https://theplanetd.com/images/Things-to-do-in-Venice-Italy-1.jpg",
+    image2:
+      "https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg",
+    facts: [
+      "Venice is known for its bridges. There are 417 bridges in Venice, and 72 of those are private.      ",
+      "The San Marco bell tower, or campanile, was built in the 12th century and collapsed in 1902. The tower was rebuilt to be exactly the same as the previous one. It is 98.6 metres tall, making it the fifth tallest bell tower in Italy.",
+      "Venice is sinking at the rate of 1-2 millimeters a year.",
+      "The first public casino in the world was opened in Venice in 1638.",
+    ],
+  },
+
+
+  {
     name: "Grand Canyon",
     description:
       "This incredible natural attraction is one of the most visited places in the United States. Carved out by the Colorado River, the Grand Canyon cuts deep into the landscape, creating dramatic cliff walls and ledges.",
