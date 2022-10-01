@@ -309,6 +309,7 @@ nav.active {
   justify-content: flex-end;
   align-items: center;
   position: relative;
+  margin-top: 300px;
 }
 
 .headerInfo {
