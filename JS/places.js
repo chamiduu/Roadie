@@ -140,6 +140,26 @@ const data = [
     ],
   },
 
+{
+    name: "Kawaguchi",
+    description:
+      "Kawaguchi is a city located in Saitama Prefecture, Japan. As of 1 January 2021, the city had an estimated population of 607,373 in 293,582 households and a population density of 9800 persons per km². The total area of the city is 61.95 square kilometres.",
+      imageWide:
+      "https://www.japan-guide.com/g18/6906_01.jpg",
+    imageTall:
+      "https://mediaim.expedia.com/destination/1/82b90f79682d069308b2cb87be33ba24.jpg",
+    image1:
+      "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/17/ae/61.jpg",
+    image2:
+      "https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2018/02/lake-kawaguchi-with-boat.jpg",
+    facts: [
+      "It lies on the alluvial plain of the Ara River, just north of Tokyo, and is a major component of the Tokyo-Yokohama metropolitan area.",
+      "During the Edo (Tokugawa) period (1603–1867) it was a post town and marketplace, with few industries. ",
+      "The manufacture of metal castings grew rapidly during the early 20th century.",
+      "Since World War II other industries, such as the manufacture of textiles and precision instruments and brewing, have been introduced. ",
+    ],
+  },
+
   {
     name: "Tokyo Disneyland",
     description:
