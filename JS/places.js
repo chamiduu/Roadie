@@ -100,6 +100,26 @@ const data = [
     ],
   },
 
+    {
+    name: "Samoa Islands",
+    description:
+      "The Samoan Islands are an archipelago covering 3,030 km² in the central South Pacific, forming part of Polynesia and of the wider region of Oceania. Administratively, the archipelago comprises all of the Independent State of Samoa and most of American Samoa.",
+    imageWide:
+      "https://unsplash.com/photos/464NqsUNTzU",
+    imageTall:
+      "https://unsplash.com/photos/HDYxXGL11ds",
+    image1:
+      "https://unsplash.com/photos/q-1UsUeWHJ8",
+    image2:
+      "https://unsplash.com/photos/BR1ixF95cGs",
+    facts: [
+      "This country is located in the Pacific Ocean South of the equator. Samoa is located in Oceania.",
+      "Samoa belongs to the Polynesian islands. The group of islands lie halfway between Hawaii and New Zealand.",
+      "Samoa consists of two main islands called Savaìi and Upolu and several smaller islands and islets.",
+      "The largest island of Samoa is Savaìi and the most populated island is Upolu. These islands are of volcanic origin.",
+    ],
+  },
+  
   {
     name: "Kyoto",
     description:
