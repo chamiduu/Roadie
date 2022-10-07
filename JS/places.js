@@ -81,6 +81,26 @@ const data = [
   },
 
   {
+    name: "Kandy",
+    description:
+      "Kandy is a large city in central Sri Lanka. It's set on a plateau surrounded by mountains, which are home to tea plantations and biodiverse rainforest.",
+    imageWide:
+      "https://www.archaeology.lk/wp-content/uploads/2020/11/temple-sacred-tooth-relic-kandy-sri-lanka.jpg",
+    imageTall:
+      "https://m.psecn.photoshelter.com/img-get2/I0000TCv5DqMftXo/fit=1000x750/Kandy-the-island-in-Kandy-Lake-at-sunrise-Kandy-Central-Province-Sri-Lanka-Asia.jpg",
+    image1:
+      "https://st.depositphotos.com/1609126/4900/i/600/depositphotos_49003045-stock-photo-temple-of-the-tooth-kandy.jpg",
+    image2:
+      "https://www.kandyescapes.com/wp-content/uploads/2020/04/lake-mob.jpg",
+    facts: [
+      "Kandy is the second largest city in Sri Lanka and the capital of the Central Province.",	
+      "Kandy is the home of the Temple of the Tooth Relic, which houses one of the Buddha's teeth.",
+      "Kandy is the last capital of the ancient kings' era of Sri Lanka. The city was the last capital of the Sinhalese Kingdom until 1815, when the island was ceded to the British Empire.",
+      "Kandy is a UNESCO World Heritage Site.",
+    ],
+  },
+  
+  {
     name: "Tokyo",
     description:
       "Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum)",
