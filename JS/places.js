@@ -101,6 +101,66 @@ const data = [
   },
   
   {
+    name: "Gardens By The Bay",
+    description:
+      "Gardens by the Bay, offer spellbinding views of the waterfront. The place is perfect for a leisure walk with your beloved with its tranquil surroundings and picturesque backdrops. While the gardens look fascinating throughout the day, the view in the nightlight makes it all the more magical. ",
+    imageWide:
+      "https://images.unsplash.com/photo-1506351421178-63b52a2d2562?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1516496636080-14fb876e029d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+    image1:
+      "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    image2:
+      "https://images.unsplash.com/photo-1588207566531-442f8aa8365c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+    facts: [
+      "Gardens by the Bay is an immense nature park in the vicinity of the Marina Reservoir in the central region of Singapore.",
+      "The park consists of 3 waterfront gardens and has since its creation become one of the most popular tourist destinations in Singapore, welcoming millions of people every year.",
+      "The huge nature park spans an area of 101 hectares (250 acres) and consists of 3 separate gardens.",
+      "Being a city-state, Singapore is a highly urbanized country. For this reason, the government approved the project to increase the greenery and flora in the city.",
+    ],
+  },
+
+  {
+    name: "Singapore Flyer",
+    description:
+      "Singapore Flyer is the tallest Ferris wheel in Asia which can hold 28 passengers in 28 air-conditioned capsules. Once on the wheel, you would be able to notice the city skylines from the height of a 45 storied building. Its air-conditioned capsules eliminate the fear of height for most people.",
+    imageWide:
+      "https://images.unsplash.com/photo-1551459533-2d9708ecd671?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1624644462813-84d54856ac24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    image1:
+      "https://images.unsplash.com/photo-1559633462-d82e21578552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    image2:
+      "https://images.unsplash.com/photo-1601274112857-84a8fb75a77d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    facts: [
+      "Singapore Flyer is 150 metres in diameter and 165 metres in height. Singapore Flyer stands on 33,700m2 or 363,000 ft2. Flyer speed is  0.24m per second, or 0.76km/h. Total capacity per revoluion is 784 passengers.",
+      "Singapore Flyer is the brainchild of world renowned architect Dr. Kisho Kurokawa (Japan) and architectural firm DP Architects (Singapore). The design is notably “avant-garde” – experimental and innovative while emphasizing simplicity and harmony.",
+      "Each rotation is about 30 minutes. Smooth Rotation: Singapore Flyer is designed and built to rotate smoothly under various wind conditions at high altitudes – thanks to precision wind engineering.",
+      "On board Singapore Flyer, you can see up to 45 kilometres away – that’s 3 kilometres more than the entire length of our island city. From the Flyer, you’ll be able to see Changi Airport, Sentosa Island, and even parts of Malaysia and Indonesia."
+    ],
+  },
+
+  {
+    name: "Universal Studios",
+    description:
+      "With 24 thrilling rides and 7 different themed zones, Universal Studios Singapore has remarked itself as one of the best adventure parks in the world. From adults to children, there is something for every age group here. From uniquely crafted themed zones to spectacular city skyline views, the park takes you into the world of mini Hollywood.",
+    imageWide:
+      "https://images.unsplash.com/photo-1618945372420-2470ece5277c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1621473909625-6a62ef5bedf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    image1:
+      "https://images.unsplash.com/photo-1626052241435-379d97c3c355?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+    image2:
+      "https://images.unsplash.com/photo-1565699752279-a3e990a2ab3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    facts: [
+      "It was given the title of ‘Top amusement park in Asia’ by TripAdvisor for 4 years running, edging out other popular competitors in the region such as Universal Studios Japan, Tokyo Disneyland and Legoland Malaysia.",
+      "The popular Human vs Cylon Battlestar Galactica roller coaster is popular not only amongst visitors, but also amongst world records! Standing at 42.5m high, it holds the record for the “tallest duelling roller coaster”, whereby two tracks of coasters engage in a thrilling “battle”",
+      "In January of 2017, less than 7 years after its opening, it welcomed its 25 millionth visitor. That’s almost 4.5 times the size of Singapore’s whole population!",
+      "The construction of Resorts World Sentosa and Universal Studios Singapore began on 19 April 2008. After almost two years of construction, the park opened on 18 March 2010.",
+    ],
+  },
+  
+  {
     name: "Tokyo",
     description:
       "Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum)",
