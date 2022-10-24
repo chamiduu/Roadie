@@ -14,8 +14,9 @@ const data = [
       "https://images.unsplash.com/photo-1623262754278-73b95a39b9fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     facts: [
       "The citadel on top of Sigiriya was built by King Kasyapa who ruled from 477 to 495 CE. He choose this as his royal residence as he was worried of potential attacks from his brother Moggallana, the rightful heir to the throne. From atop of Sigiriya he had unobstructed views of the surrounding area.",
-      "The best time to visit Sinharaja Forest Reserve is between January to May and from August to December. ",
-      "The only way to enter Sinharaja is on foot, accompanied by a national guide. The reserve can be entered from three different sides, but the more common entrance is via Deniyaya, a small and dusty town on the edge of the rain forest.",
+      "The rock is 200 metres high and visitors can walk the 1,200 steps, divided amongst a number of staircases, to the top.",
+      "Prior to King Kasyapa using Sigiriya as his residence, it’s thought the rock was a Buddhist monastery. It was once again used as a monastery after Kasyapa’s death till it was abandoned in the 14th century.",
+      "The city includes water gardens, a moat, terraced gardens and archaeological features.",
     ],
   },
   
@@ -33,9 +34,9 @@ const data = [
       "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mahoora.lk%2Fmahoora-locations%2Fmahoora-tented-safari-camps-sinharaja-rainforest.html&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAY",
     facts: [
       "There is much endemic wildlife, especially birds, but the reserve is also home to over 50% of Sri Lanka's endemic species of mammals and butterflies, as well as many kinds of insects, reptiles and rare amphibians.",
-      "The rock is 200 metres high and visitors can walk the 1,200 steps, divided amongst a number of staircases, to the top.",
-      "Prior to King Kasyapa using Sigiriya as his residence, it’s thought the rock was a Buddhist monastery. It was once again used as a monastery after Kasyapa’s death till it was abandoned in the 14th century.",
-      "The city includes water gardens, a moat, terraced gardens and archaeological features.",
+      "The best time to visit Sinharaja Forest Reserve is between January to May and from August to December. ",
+      "The only way to enter Sinharaja is on foot, accompanied by a national guide.",
+      "The reserve can be entered from three different sides, but the more common entrance is via Deniyaya, a small and dusty town on the edge of the rain forest.",
     ],
   },
 
