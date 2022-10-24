@@ -21,17 +21,17 @@ const data = [
   },
   
   {
-    name: "Sinharaja",
+    name: "Sinharaja Forest Reserve",
     description:
       "Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka. It is a place with  international significance and with aBiosphere Reserve and World Heritage Site by UNESCO.",
     imageWide:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rainforest-ecolodge.com%2Fsinharaja-rainforest.html&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAE",
+      "https://www.rainforest-ecolodge.com/wp-content/uploads/2015/07/Sinharaja-slider01.jpg",
     imageTall:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fstock-photos%2Fsinharaja.html&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAJ",
+      "https://2abe47a55cfe3c2aba27-1868d38b8806f9b6ecce0a5b84ee61c5.ssl.cf1.rackcdn.com/sinharaja-rainforest-national-park-waterfall-landscape-nobody-sri-lanka.jpg",
     image1:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwhc.unesco.org%2Fen%2Flist%2F405%2F&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAO",
+      "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_728/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/to5e3sjxoqnwywfrmbvw/SinharajaForestReservePrivateTourfromBentota.jpg",
     image2:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mahoora.lk%2Fmahoora-locations%2Fmahoora-tented-safari-camps-sinharaja-rainforest.html&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAY",
+      "https://blueelephant.tours/wp-content/uploads/2022/08/Sinharaja-Rainforest-Day-Trek-from-Colombo.jpg",
     facts: [
       "There is much endemic wildlife, especially birds, but the reserve is also home to over 50% of Sri Lanka's endemic species of mammals and butterflies, as well as many kinds of insects, reptiles and rare amphibians.",
       "The best time to visit Sinharaja Forest Reserve is between January to May and from August to December. ",
