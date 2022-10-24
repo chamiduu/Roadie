@@ -14,11 +14,31 @@ const data = [
       "https://images.unsplash.com/photo-1623262754278-73b95a39b9fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     facts: [
       "The citadel on top of Sigiriya was built by King Kasyapa who ruled from 477 to 495 CE. He choose this as his royal residence as he was worried of potential attacks from his brother Moggallana, the rightful heir to the throne. From atop of Sigiriya he had unobstructed views of the surrounding area.",
+      "The best time to visit Sinharaja Forest Reserve is between January to May and from August to December. ",
+      "The only way to enter Sinharaja is on foot, accompanied by a national guide. The reserve can be entered from three different sides, but the more common entrance is via Deniyaya, a small and dusty town on the edge of the rain forest.",
+    ],
+  },
+  
+  {
+    name: "Sinharaja",
+    description:
+      "Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka. It is a place with  international significance and with aBiosphere Reserve and World Heritage Site by UNESCO.",
+    imageWide:
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rainforest-ecolodge.com%2Fsinharaja-rainforest.html&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAE",
+    imageTall:
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fstock-photos%2Fsinharaja.html&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAJ",
+    image1:
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwhc.unesco.org%2Fen%2Flist%2F405%2F&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAO",
+    image2:
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mahoora.lk%2Fmahoora-locations%2Fmahoora-tented-safari-camps-sinharaja-rainforest.html&psig=AOvVaw1kEERa_pNvK1vjG7vNDkHs&ust=1666669346244000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiRxqX59_oCFQAAAAAdAAAAABAY",
+    facts: [
+      "There is much endemic wildlife, especially birds, but the reserve is also home to over 50% of Sri Lanka's endemic species of mammals and butterflies, as well as many kinds of insects, reptiles and rare amphibians.",
       "The rock is 200 metres high and visitors can walk the 1,200 steps, divided amongst a number of staircases, to the top.",
       "Prior to King Kasyapa using Sigiriya as his residence, it’s thought the rock was a Buddhist monastery. It was once again used as a monastery after Kasyapa’s death till it was abandoned in the 14th century.",
       "The city includes water gardens, a moat, terraced gardens and archaeological features.",
     ],
   },
+
 
   {
     name: "Lotus Tower",
