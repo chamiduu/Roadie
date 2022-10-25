@@ -19,6 +19,26 @@ const data = [
       "The city includes water gardens, a moat, terraced gardens and archaeological features.",
     ],
   },
+  
+   {
+    name: "Kaleniya",
+    description:
+      "The Kelaniya Raja Maha Vihara or Kelaniya Temple is a Buddhist temple in Kelaniya, Sri Lanka, located 11 km north-east of Colombo.Rajamaha Viharaya, is one of the most revered historic Buddhist temples of the orient.",
+    imageWide:
+      "https://images.unsplash.com/photo-1612862862126-865765df2ded?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1580877854178-95067799acfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+    image1:
+      "https://images.unsplash.com/photo-1594391045445-64ea3c6ff16b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+    image2:
+      "https://images.unsplash.com/photo-1623262754278-73b95a39b9fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    facts: [
+      "Among the many Buddhist temples of Sri Lanka, the Kelani Viharaya stands out as one of the most exquisite examples of the sculptor’s art with history about 2500years",
+      "The temple is also famous for its image of the reclining Gautama Buddha and paintings by the native artist Solias Mendis which depict important events in the life of the Buddha.",
+      "It is the venue for the Duruthu Maha Perehera procession each January.",
+      "Its significance as a place of Buddhist worshipfrom the past as it is one of the places in Sri Lanka that toouched the sacred foot of Loard Buddha.",
+    ],
+  },
 
   {
     name: "Lotus Tower",
