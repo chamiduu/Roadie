@@ -261,7 +261,7 @@ const data = [
     ],
   },
 
-{
+  {
     name: "Kawaguchi",
     description:
       "Kawaguchi is a city located in Saitama Prefecture, Japan. As of 1 January 2021, the city had an estimated population of 607,373 in 293,582 households and a population density of 9800 persons per km². The total area of the city is 61.95 square kilometres.",
@@ -673,6 +673,25 @@ const data = [
       "The North Rim is closed in winter, but the South Rim and West Rim are open year-round and easily accessible from tourist destinations like Las Vegas, Phoenix, Sedona, Flagstaff, and Williams.",
       "The main access point for the South Rim is the South Entrance, where the main visitor center is located.",
       "From the South Entrance Visitor Center, you have two main options for exploring the park by road: Hermit Road runs west, past the small resort area of Grand Canyon Village, more commonly known as the Village, to numerous overlooks.",
+    ],
+  },
+  {
+    name: "Yosemite National Park",
+    description:
+      "Yosemite is a national treasure that should not be missed. Yosemite Valley is home to some of America's most famous landscapes and iconic natural attractions, from the dramatic waterfalls to the soaring cliff walls of El Capitan and Half Dome.",
+    imageWide:
+      "https://images.unsplash.com/photo-1562310503-a918c4c61e38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    imageTall:
+      "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=352&q=80",
+    image1:
+      "https://images.unsplash.com/photo-1506318164473-2dfd3ede3623?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    image2:
+      "https://images.unsplash.com/photo-1478772157037-9eaf7667d225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+    facts: [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+      "The most famous and beautiful section of the park is Yosemite Valley, home to big-name tourist attractions, like Half Dome, El Capitan, and Yosemite Falls.",
+      "The park has a full range of hikes, from quick and easy, including some with wheelchair accessible paths, to full-day or multi-day hikes. ",
+      "Yosemite is the most famous rock climbing destination in the United States, and for many climbers, it is the pinnacle of their climbing careers.",
+      "The park has some excellent campgrounds to choose from. The most popular campgrounds for visitors are North Pines, Upper Pines, and Lower Pines.",
     ],
   }
 ];
