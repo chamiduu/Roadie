@@ -19,6 +19,26 @@ const data = [
       "The city includes water gardens, a moat, terraced gardens and archaeological features.",
     ],
   },
+  
+  {
+    name: "Galle fort",
+    description:
+      "Galle Fort is located in the southern province of Sri Lanka. A journey to the past sees the remnants of a Dutch past at a World Heritage Site.",
+    imageWide:
+      "https://img.freepik.com/premium-photo/galle-dutch-fort-galle-fort-sri-lanka-as-seen-from-air-galle-fort-bay-galle-southwest-coast-sri-lanka-aerial-view_620810-1179.jpg?w=2000",
+    imageTall:
+      "https://www.taruvillas.com/wp-content/uploads/2022/03/Galle-Fort-Tour-720X720.jpg",
+    image1:
+      "https://images.thrillophilia.com/image/upload/s--u5x85w77--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/173/958/original/1570867119_shutterstock_1385735960.jpg.jpg?1570867119",
+    image2:
+      "https://travel2next.com/wp-content/uploads/galle-fort-1024x683.jpg",
+    facts: [
+      "Galle Fort, was built first in 1588 by the Portuguese, then extensively fortified by the Dutch during the 17th century from 1649 onwards.",
+      " The old town of Galle was once used as a trading port for spices and other goods for over 200 years.",
+      "It is the best example of a fortified city built by Europeans in South and South-East Asia, showing the interaction between European architectural styles and South Asian traditions.",
+      "Because of history, enormous cultural and architectural value it poses, it’s recognized as a UNESCO heritage site to preserve the area’s beauty.",
+    ],
+  },
 
   {
     name: "Lotus Tower",
