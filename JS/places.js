@@ -60,7 +60,7 @@ const data = [
     ],
   },
   
-  {
+   {
     name: "Kataragam",
     description:
       "Kataragama is a pilgrimage town sacred to Hindu, Buddhist and indigenous Vedda people of Sri Lanka located in the sourthern part of the country. It is well known for the “Kiri Vehera” Pagoda and for the temple dedicated to the god “Kataragama”which are worshiped by many.",
