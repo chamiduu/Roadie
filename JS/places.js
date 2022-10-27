@@ -59,6 +59,27 @@ const data = [
       "Ravana Ella Falls, a 25 m (82 ft) waterfall, is located approximately 6 km (4 mi) away from the town",
     ],
   },
+  
+  {
+    name: "Kataragam",
+    description:
+      "Kataragama is a pilgrimage town sacred to Hindu, Buddhist and indigenous Vedda people of Sri Lanka located in the sourthern part of the country. It is well known for the “Kiri Vehera” Pagoda and for the temple dedicated to the god “Kataragama”which are worshiped by many.",
+    imageWide:
+      "https://www.trawell.in/admin/images/upload/189427232Kataragama.jpg",
+    imageTall:
+      "https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2019/01/Places-to-Visit-in-Kataragama-og.jpg",
+    image1:
+      "https://live.staticflickr.com/65535/49683576017_6a31e97224_b.jpg",
+    image2:
+      "https://images.unsplash.com/photo-1586496235784-d832d52d7bf5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+    facts: [
+      "Kataragama is a fast developing township surrounded by jungle, and in ancient times was the seat of Government for many Sinhalese kings. The pilgrimage town is also an important tourist destination due to its closeness to Yala National park.",
+      "The ancient Kiri Vehera Buddhist stupa, which is believed to be built by the regional king Mahasena in the 6th century BC is worshiped by many Buddhist then followed by the Maha Kovil dedicated to god “Kataragama”. ",
+      "Although Kataragama was a small village in medieval times, today it is a fast-developing township surrounded by jungle in the southeastern region of Sri Lanka.",
+      " A major annual festival accompanied by a Perahera is held in honor of the god during the months of July and August where a large crowds come to see it.",
+    ],
+  },
+
 
   {
     name: "Polonnaruwa",
