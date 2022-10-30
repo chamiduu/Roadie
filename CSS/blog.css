@@ -395,7 +395,7 @@ nav.active {
 
 .blog {
   width: 70%;
-  margin: 100px 100px;
+  margin: 100px auto;
   margin-bottom: 0px;
   background-color: #f9fcff;
   -webkit-box-shadow: 5px 5px 19px 1px rgba(20, 35, 97, 0.28);
