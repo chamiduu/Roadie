@@ -60,6 +60,27 @@ const data = [
       "The tower, which is expected to function as Sri Lanka’s ‘digital TV tower’, is built with fibre optic cables and is fully equipped with necessary telecommunication equipment.",
     ],
   },
+  
+   {
+    name: "Rangiri Dambulla Cave Temple",
+    description:
+      "Dambulla cave temple also known as the Golden Temple of Dambulla is a World Heritage Site in Sri Lanka, situated in the central part of the country. It is the largest and best-preserved cave temple complex in Sri Lanka.There are more than 80 documented caves in the surrounding area. Fabulous paintings from the past, of 153 Buddha statues, three statues of Sri Lankan kings and four statues of gods and goddesses are there to see and gain a knowledge on the ancient civilization of Sri Lanks. ",
+    imageWide:
+      "https://cfimages.mercuryholidays.co.uk/3vgdkcmqrnp2/77AF3EGPZfAcf7yGWwN47j/6efa5f03171cd4acbd3d51fefd09871b/43440887_l.jpg?w=600&fm=jpg&fl=progressive&q=80",
+    imageTall:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ75fMOcPIKjLKmN-tAYe7764QRp_Z2gv1zuA&usqp=CAU",
+    image1:
+      "https://live.staticflickr.com/65535/49756720691_415ce3a817_b.jpg",
+    image2:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5RaokF8yoYgkttdfDu0K9VqScMpBUg2oiaw&usqp=CAU",
+    facts: [
+      "The Dambulla temple complex comprises five caves which have been converted into shrine rooms, images of the Buddha, and over 1,500 ceiling murals. ",
+      "The caves are at the base of a 150m high rock built by King Valagambahu who took refuge in it when exiled from Anuradhapura in the 1st century BC.",
+      "Many other kings added to it later and by the 11th century. King Nissanka Malla of Polonnaruwa gilded the caves and added about 70 Buddha statues in 1190 and later the caves were restored and painted by the Kingdom of Kandy.",
+      "Located in central Sri Lanka, the Rangiri Dambulla Cave Temple is a living Buddhist site that is visited by many local tourists well as foreign tourists annually",
+    ],
+  },
+
 
   {
     name: "Ella",
